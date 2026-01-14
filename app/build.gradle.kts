@@ -1,8 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("org.jetbrains.kotlin.android") version "2.0.21"
-    id("androidx.navigation.safeargs.kotlin") version "2.9.6"
-    kotlin("plugin.serialization") version "2.0.21"
+    id("androidx.navigation.safeargs") version "2.9.6"
+
 
 }
 android {
@@ -30,8 +29,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 }
 
@@ -41,15 +40,12 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(files("lib/android.jar"))
     implementation(libs.navigation.fragment.ktx)
     implementation(libs.navigation.ui.ktx)
     implementation(libs.cardview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    kotlin("plugin.serialization")
-    implementation("uk.co.chrisjenx:calligraphy:2.3.0")
 
 
 

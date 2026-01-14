@@ -2,5 +2,6 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.CashMate" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>    </style>
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
 </resources>

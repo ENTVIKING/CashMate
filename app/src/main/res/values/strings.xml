@@ -2,4 +2,13 @@
     <string name="app_name">CashMate</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ENT">عنایت ابوالحسنی</string>
+    <string name="txtCount">تعداد : 10</string>
+    <string name="txtTotalcost">کل هزینه</string>
+    <string name="Rial">ریال</string>
+    <string name="txtEvents">رویداد ها</string>
+    <string name="txtDisplayinvoices">نمایش فاکتور ها</string>
+    <string name="txtTotalnumber">تعداد کل</string>
+    <string name="txtLastInvoice">آخرین فاکتور</string>
+    <string name="txtMostInvoices">بیشترین فاکتور</string>
 </resources>
