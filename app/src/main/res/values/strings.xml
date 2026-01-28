@@ -11,4 +11,8 @@
     <string name="txtTotalnumber">تعداد کل</string>
     <string name="txtLastInvoice">آخرین فاکتور</string>
     <string name="txtMostInvoices">بیشترین فاکتور</string>
+    <string name="txtAddNewInvoice">+ ثبت فاکتور جدید</string>
+    <string name="_1404_10_13_15_38">امروز شنبه 1404/10/13 ساعت 15:38</string>
+    <string name="price">هزینه</string>
+    <string name="title">عنوان (یادداشت)</string>
 </resources>
