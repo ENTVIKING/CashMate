@@ -15,4 +15,12 @@
     <string name="_1404_10_13_15_38">امروز شنبه 1404/10/13 ساعت 15:38</string>
     <string name="price">هزینه</string>
     <string name="title">عنوان (یادداشت)</string>
+    <string name="Invoiceـdetails">مشخصات فاکتور</string>
+    <string name="Invoiceـpreviewـtext_detail">پیش نمایش فاکتور شما در این قسمت قرار میگیرد</string>
+    <string name="Invoiceـpreviewـtext">پیش نمایش فاکتور</string>
+    <string name="txt_category">دسته بندی:</string>
+    <string name="txt_total_price">مجموع حساب: 0 </string>
+    <string name="txt_date_list_invoices">فاکتور ها از تاریخ:</string>
+    <string name="txt_date_number">04/11/01 تا 04/11/11</string>
+    <string name="txt_all_price">کل هزینه</string>
 </resources>

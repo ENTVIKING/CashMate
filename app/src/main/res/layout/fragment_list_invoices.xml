@@ -1,14 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Ui.Fragment.ListInvoicesFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="250dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/txt_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="@string/txt_total_price"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_back_list_invoices" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="@string/Rial"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_total_price"
+            app:layout_constraintEnd_toStartOf="@+id/txt_total_price"
+            app:layout_constraintTop_toTopOf="@+id/txt_total_price" />
+
+        <ImageView
+            android:id="@+id/img_back_list_invoices"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="331dp" />
+
+        <TextView
+            android:id="@+id/txt_name_user_list_invoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/ENT"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/txt_Count_number_list_invoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_textview_all_redius"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/txtCount"
+            app:layout_constraintEnd_toEndOf="@+id/txt_name_user_list_invoices"
+            app:layout_constraintStart_toStartOf="@+id/txt_name_user_list_invoices"
+            app:layout_constraintTop_toBottomOf="@+id/txt_name_user_list_invoices" />
+
+        <TextView
+            android:id="@+id/txt_all_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_all_price"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@id/txt_total_price"
+            app:layout_constraintEnd_toEndOf="@+id/txt_total_price"
+            app:layout_constraintStart_toEndOf="@+id/txt_total_price" />
+
+        <TextView
+            android:id="@+id/txt_date_list_invoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:drawableRight="@drawable/date"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="@string/txt_date_list_invoices"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_total_price"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_total_price" />
+
+        <TextView
+            android:id="@+id/txt_date_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="@string/txt_date_number"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/txt_date_list_invoices"
+            app:layout_constraintStart_toStartOf="@+id/txt_date_list_invoices"
+            app:layout_constraintTop_toBottomOf="@id/txt_date_list_invoices" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/shape_background_redius_all_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/shape_background_searchview"
+        android:iconifiedByDefault="false"
+        android:layoutDirection="rtl"
+        android:queryHint="جستجو کنید..."
+        android:searchIcon="@drawable/sort"
+        android:textDirection="rtl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

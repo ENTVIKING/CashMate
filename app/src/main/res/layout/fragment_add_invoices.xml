@@ -14,7 +14,7 @@
         app:layout_constraintGuide_begin="154dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/content"
+        android:id="@+id/bottom"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
@@ -55,12 +55,12 @@
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/filledTextField_username"
-                        fontPath="fonts/iran_sans.ttf"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
+                        android:fontFamily="@font/iran_sans"
                         android:hint="@string/price"
                         android:layoutDirection="rtl"
                         android:singleLine="true"
@@ -76,10 +76,10 @@
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/edt_price"
-                            fontPath="fonts/iran_sans.ttf"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:gravity="right|center_vertical"
+                            android:fontFamily="@font/iran_sans"
+                            android:gravity="start|center_vertical"
                             android:imeOptions="actionNext"
                             android:inputType="number"
                             android:singleLine="true"
@@ -97,8 +97,10 @@
                         android:layout_marginBottom="8dp"
                         android:drawableRight="@drawable/discount"
                         android:drawablePadding="10dp"
+                        android:fontFamily="@font/iran_sans"
                         android:gravity="center_vertical"
-                        android:text="دسته بندی: "
+                        android:text="@string/txt_category"
+                        android:textSize="17dp"
                         app:layout_constraintBottom_toTopOf="@+id/filledTextField_title"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/filledTextField_username" />
@@ -127,11 +129,11 @@
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/filledTextField_title"
-                        fontPath="fonts/iran_sans.ttf"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginEnd="8dp"
+                        android:fontFamily="@font/iran_sans"
                         android:hint="@string/title"
                         android:layoutDirection="rtl"
                         android:singleLine="true"
@@ -148,10 +150,10 @@
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/edt_name"
-                            fontPath="fonts/iran_sans.ttf"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:gravity="right"
+                            android:fontFamily="@font/iran_sans"
+                            android:gravity="start"
                             android:imeOptions="actionNext"
                             android:singleLine="true"
                             android:textSize="20sp" />
@@ -182,7 +184,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="مشخصات فاکتور"
+                        android:text="@string/Invoiceـdetails"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -230,9 +232,9 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:gravity="center"
-                        android:text="پیش نمایش فاکتور شما در این قسمت قرار میگیرد"
+                        android:text="@string/Invoiceـpreviewـtext_detail"
                         android:textColor="@color/black"
-                        android:textSize="10sp"
+                        android:textSize="11sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -261,7 +263,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text=" پیش نمایش  فاکتور "
+                        android:text="@string/Invoiceـpreviewـtext"
                         android:textSize="12sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -275,12 +277,14 @@
 
 
         <TextView
-            android:id="@+id/txt_date"
+            android:id="@+id/txt_date_add_invoices"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="#000000"
-            tools:layout_editor_absoluteY="383dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_cost" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline5"
@@ -316,7 +320,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/header"
+        android:id="@+id/top"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@drawable/shape_background_redius_top"
