@@ -20,7 +20,6 @@
     <string name="Invoiceـpreviewـtext">پیش نمایش فاکتور</string>
     <string name="txt_category">دسته بندی:</string>
     <string name="txt_total_price">مجموع حساب: 0 </string>
-    <string name="txt_date_list_invoices">فاکتور ها از تاریخ:</string>
-    <string name="txt_date_number">04/11/01 تا 04/11/11</string>
+    <string name="txt_date_list_invoices">فاکتور ها از: 04/11/01 تا 04/11/11</string>
     <string name="txt_all_price">کل هزینه</string>
 </resources>
