@@ -45,11 +45,8 @@ The project is at an early stage of development. Any ideas, contributions, and f
 
 ## 📸 Screenshots
 
-### Home Screen
+### application Screen
 ![Home](screenshots/home.png)
-
-### Add Expense
-![Add Expense](screenshots/add-expense.png)
 
 ---
 
@@ -112,11 +109,9 @@ This project is open-source. You are free to use and improve it — just remembe
 
 ## 📸 تصاویر
 
-### صفحه اصلی
+### اسکرین شات اپلیکیشن
 ![Home](screenshots/home.png)
 
-### افزودن هزینه
-![Add Expense](screenshots/add-expense.png)
 
 ---
 
