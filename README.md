@@ -45,7 +45,11 @@ The project is at an early stage of development. Any ideas, contributions, and f
 
 ## 📸 Screenshots
 
-> Coming soon…
+### Home Screen
+![Home](screenshots/home.png)
+
+### Add Expense
+![Add Expense](screenshots/add-expense.png)
 
 ---
 
@@ -108,7 +112,11 @@ This project is open-source. You are free to use and improve it — just remembe
 
 ## 📸 تصاویر
 
-> به‌زودی اضافه می‌شود…
+### صفحه اصلی
+![Home](screenshots/home.png)
+
+### افزودن هزینه
+![Add Expense](screenshots/add-expense.png)
 
 ---
 
