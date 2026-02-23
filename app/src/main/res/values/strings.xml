@@ -22,4 +22,15 @@
     <string name="txt_total_price">مجموع حساب: 0 </string>
     <string name="txt_date_list_invoices">فاکتور ها از: 04/11/01 تا 04/11/11</string>
     <string name="txt_all_price">کل هزینه</string>
+    <string name="taxiـfare">هزینه تاکسی</string>
+    <string name="commuting">رفت و آمد</string>
+    <string name="DateAndTime">تاریخ ثبت : چهارشنبه 1404/11/22 ساعت 23:23</string>
+    <string name="txt_btn_share">به اشتراک گذاری</string>
+    <string name="txt_invoice_view">مشاهده فاکتور</string>
+    <string name="txt_payment_type">نوع پرداختی :</string>
+    <string name="txt_cash_card">نقد / کارت</string>
+    <string name="txt_Buy_from_the_store"><![CDATA[خرید >> فروشگاه]]></string>
+    <string name="txt_Name_of_invoice_registrant">نام ثبت کننده فاکتور :</string>
+    <string name="txt_Invoice_registration_date">تاریخ ثبت فاکتور :</string>
+    <string name="txt_Other_similar_invoices">دیگر فاکتور های مشابه</string>
 </resources>
