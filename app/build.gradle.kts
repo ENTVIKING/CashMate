@@ -1,3 +1,6 @@
+import org.gradle.kotlin.dsl.annotationProcessor
+import org.gradle.kotlin.dsl.implementation
+
 plugins {
     alias(libs.plugins.android.application)
     id("androidx.navigation.safeargs") version "2.9.6"
@@ -42,7 +45,9 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.navigation.fragment.ktx)
     implementation(libs.navigation.ui.ktx)
-    implementation(libs.cardview)
+    implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("uk.co.chrisjenx:calligraphy:2.3.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
