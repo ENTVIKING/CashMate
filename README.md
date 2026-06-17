@@ -45,7 +45,7 @@ The project is at an early stage of development. Any ideas, contributions, and f
 
 ## 📸 Screenshots
 
-> Coming soon…
+![Screenshot](https://raw.githubusercontent.com/ENTVIKING/CashMate/a832eeb9dd6178c9eebe962f97fd05fa3a1e8abc/screenshots/home.png)
 
 ---
 
@@ -108,7 +108,8 @@ This project is open-source. You are free to use and improve it — just remembe
 
 ## 📸 تصاویر
 
-> به‌زودی اضافه می‌شود…
+![Screenshot](https://raw.githubusercontent.com/ENTVIKING/CashMate/a832eeb9dd6178c9eebe962f97fd05fa3a1e8abc/screenshots/home.png)
+
 
 ---
 
